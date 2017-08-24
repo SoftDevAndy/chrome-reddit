@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": []
+   },
+   "content_scripts": [{
+    "css": [],
+    "js": ["assets/js/jquery.min.js","assets/js/cleaner.js"],
+    "matches": ["https://www.reddit.com/r/*"]
+   }], 
+   "description": "Readable Reddit, making reddit more minimal and easy to read by removing the sidebar, footer and a junk header thread.",
+   "icons": {
+      "128": "assets/img/reddit.png",
+      "48": "assets/img/reddit.png",
+      "16": "assets/img/reddit.png"
+   },
+   "permissions": [ "browsingData", "tabs", "cookies", "\u003Call_urls>" ],
+   "manifest_version": 2,
+   "name": "Readable Reddit",
+   "author": "SoftDevAndy",
+   "version": "1.0.0"
+}
